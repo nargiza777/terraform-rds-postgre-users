@@ -1,9 +1,9 @@
 provider "postgresql" {
   host            = var.db_host
-  port            = 5432
-  database        = "postgres"
-  username        = "postgres"
-  password        = "redhat2020"
+  port            = var.port
+  database        = var.database
+  username        = var.postgres_username
+  password        = var.password
   superuser = false
 }
 provider "aws" {

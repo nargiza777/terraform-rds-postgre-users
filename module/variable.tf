@@ -8,3 +8,15 @@ variable "region" {
 variable "db_host" {
   
 }
+variable "port" {
+  
+}
+variable "database" {
+  
+}
+variable "postgres_username" {
+  
+}
+variable "password" {
+  
+}
