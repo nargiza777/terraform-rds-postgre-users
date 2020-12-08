@@ -1,5 +1,5 @@
 resource "aws_iam_group" "developers" {
-  name = "datascience"
+  name = var.group_name
   path = "/"
 }
 

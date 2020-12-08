@@ -7,4 +7,5 @@ module "rds" {
     postgres_username = var.postgres_username
     password = var.password
     database = var.database
+    group_name = var.group_name
 }

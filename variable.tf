@@ -21,3 +21,4 @@ variable "postgres_username" {
 variable "password" {
   
 }
+variable "group_name" {}
