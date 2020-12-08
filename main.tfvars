@@ -1,7 +1,8 @@
 user_names = [
     "nargiz",
     "test2",
-    "newUser"
+    "newUser",
+    "farrukh"
 ]
 
 region = "us-east-1"
